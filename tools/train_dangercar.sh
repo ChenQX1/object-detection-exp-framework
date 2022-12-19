@@ -1,0 +1,1 @@
+python -m torch.distributed.launch --nproc_per_node=8 train/train_ddp_ms.py cfgs/dangercar_solver.py
